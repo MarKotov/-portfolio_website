@@ -1,0 +1,121 @@
+@font-face{
+    font-family: 'bignoodletitling';
+    src: url('C:/Users/CSOMK/Desktop/mark_web2/project/font/bignoodletitling.ttf');
+    font-weight: normal;
+    font-style: normal;  
+}
+body{
+    font-size: 15px;
+    line-height: 100%;
+    font-weight: 300;
+    
+}
+.topheader{
+    z-index: 99999;
+    position: fixed;
+    width: 100%;
+    height: 140px;
+    background-color: white;
+}
+.logo{
+    display: block;
+    position: absolute;
+    bottom: auto;
+    display: flex;
+    margin: 20px;
+    width: 100%;
+
+
+
+}
+.logo>a>img{
+    margin-top: -10px;
+    padding-right: 10px;
+    height: 60px;
+
+}
+.logo>a{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    color: blue;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: initial;
+}
+.banner{
+    background: url(C:/Users/CSOMK/Desktop/mark_web2/project/images/slider.jpg) #696969;
+    background-blend-mode: multiply,normal;
+    display: flex;
+    color: #d6d5d5;
+    align-items: center;
+    min-height: 650px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+}
+.banner h2{
+    font-size: 3rem;
+
+}
+.banner p{
+    font-size: 2rem;
+}
+.scrolldown{
+    position: absolute;
+    left: calc(50% - 52px);
+    margin-top: 15%;
+
+}
+.scrolldown img{
+    margin-bottom: 20px;
+}
+.scrolldown p{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+.aboutus{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+h3{
+    font-size: 38px;
+}
+.head_white_content span{ 
+    width: 40%; 
+    height: 4px;
+    color: black;
+    display: inline-block;
+    background-color: rgb(217, 110, 44)
+}
+.head_white_content{
+    padding: 5%;
+    text-align: center;
+    width: 100%;
+
+}
+.head_white_content p {
+    padding: 20px 90px 0px;
+    color: #696969;
+    font-family: 'bignoodletitling';
+}
+
+.logo, .bxslider>li,.aboutus>div>h3{
+    font-family: 'bignoodletitling';
+}
+.advantage{
+    background-color: #696969;
+}
+
+
+
+
+
+
+
+
+
